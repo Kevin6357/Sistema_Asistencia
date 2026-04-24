@@ -29,11 +29,11 @@
 
 
 ## Base de datos
- 
+```sql
 create database senai_asistencia;
 use senai_asistencia;
 
-´´´sql
+
 create table cargo (
 id_cargo int auto_increment primary key,
 nombre_cargo varchar(50) not null
@@ -66,10 +66,10 @@ estado enum('asistio', 'tardanza', 'falto') default 'falto' not null,
 id_empleado int not null,
 foreign key (id_empleado) references empleado(id_empleado)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-´´´
+```
 
 ### Diagrama Entidad-Relacion (DER)
+
 
  
 ### Modelo Relacional (MR)
