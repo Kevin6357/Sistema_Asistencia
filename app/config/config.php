@@ -2,22 +2,6 @@
 define("TITLE_BUSINESS", "ASISTENCIA");
 
 // Leemos el archivo .env que esta en el archivo.
-<<<<<<< HEAD
-$envFile = dirname(__DIR__,2). '/.env';
-if(file_exists($envFile)){
-    foreach(file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPATY_LINES)as $line){
-        
-    }
-}
-
-
-// # PHP NO SE PUEDE LEER archivo .ENV
-define("DB_HOST", ?? 'local host');
-define("DB_PORT", ?? '3306');
-define("DB_NAME", ?? '');
-define("DB_USER", ?? 'root');
-define("DB_PASS", ?? '');
-=======
 $envFile = dirname(__DIR__,2).'/.env';
 if(file_exists($envFile)){
     //Recorremos cada linea del archivo .env, omitiendo saltos (\n) al final de cada linea y vacios.
@@ -35,5 +19,9 @@ define("DB_HOST", $_ENV['DB_HOST'] ?? 'localhost');
 define("DB_PORT", $_ENV['DB_PORT'] ?? '3306');
 define("DB_NAME", $_ENV['DB_DATABASE'] ?? '');
 define("DB_USER", $_ENV['DB_USERNAME'] ?? 'root');
+<<<<<<< HEAD
 define("DB_PASS", $_ENV['DB_PASSWORD'] ?? '');
 
+=======
+define("DB_PASS", $_ENV['DB_PASSWORD'] ?? '');
+>>>>>>> 4731394ae924b960cd4113a7250e209c21b6092e
