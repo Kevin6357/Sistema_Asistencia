@@ -2,6 +2,7 @@
 define("TITLE_BUSINESS", "ASISTENCIA");
 
 // Leemos el archivo .env que esta en el archivo.
+<<<<<<< HEAD
 $envFile = dirname(__DIR__,2). '/.env';
 if(file_exists($envFile)){
     foreach(file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPATY_LINES)as $line){
