@@ -13,13 +13,7 @@
     <!-- Fade overlay para transición de botón Ver demo -->
     <div id="fadeOverlay"></div>
 
-    <!-- Menú móvil (overlay) fuera del nav para que position:fixed funcione siempre -->
-    <div class="mobile-menu" id="mobileMenu">
-        <button class="close" id="closeMenu" aria-label="Cerrar menú">&times;</button>
-        <a href="login.php">Iniciar Sesión</a>
-        <a href="register.php">Registrarse</a>
-    </div>
-
+    
     <!-- Sección principal con video de fondo -->
     <section class="stage">
 
@@ -51,7 +45,7 @@
 
     <!-- Sección proyectos -->
     <section class="projects-section">
-
+</section>
         <div class="project-card">
             <div class="project-img-wrap">
                 <img src="../public/image/foto_prueba.png" alt="Registro con DNI" class="project-img">
