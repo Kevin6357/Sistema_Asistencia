@@ -36,4 +36,4 @@ define("DB_PORT", $_ENV['DB_PORT'] ?? '3306');
 define("DB_NAME", $_ENV['DB_DATABASE'] ?? '');
 define("DB_USER", $_ENV['DB_USERNAME'] ?? 'root');
 define("DB_PASS", $_ENV['DB_PASSWORD'] ?? '');
->>>>>>> 070e2238c035ab54a356cf3bb3d415df88624b3a
+
